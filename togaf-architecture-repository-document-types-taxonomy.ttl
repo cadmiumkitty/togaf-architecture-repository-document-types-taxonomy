@@ -1,0 +1,259 @@
+@prefix ar: <https://dalstonsemantics.com/ns/org/opengroup/pubs/architecture/togaf9-doc/arch/chap37.html#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ar:003 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:002 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Method" .
+
+ar:004 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:002 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Content Metamodel" .
+
+ar:006 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:005 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Skills Repository" .
+
+ar:007 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:005 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Organization Structure" .
+
+ar:008 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:005 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Charter" .
+
+ar:010 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:009 ;
+    skos:definition "Shows a long-term summary view of the entire enterprise. Strategic Architectures provide an organizing framework for operational and change activity and allow for direction setting at an executive level." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Strategic Architecture" .
+
+ar:011 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:009 ;
+    skos:definition "Provides a more detailed operating models for areas within an enterprise. Segment Architectures can be used at the program or portfolio level to organize and operationally align more detailed change activity." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Segment Architecture" .
+
+ar:012 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:009 ;
+    skos:definition "Shows in a more detailed fashion how the enterprise can support a particular unit of capability. Capability Architectures are used to provide an overview of current capability, target capability, and capability increments and allow for individual work packages and projects to be grouped within managed portfolios and programs." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Capability Architecture" .
+
+ar:014 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:013 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Business Standard" .
+
+ar:015 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:013 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Data Standard" .
+
+ar:016 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:013 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Application Standard" .
+
+ar:017 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:013 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Technology Standard" .
+
+ar:020 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Reference Architectures" .
+
+ar:021 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Reference Models" .
+
+ar:022 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Viewpoint Library" .
+
+ar:023 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Guideline" .
+
+ar:024 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Template" .
+
+ar:025 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:019 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Pattern" .
+
+ar:027 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "A log of all architecturally significant decisions that have been made in the organization." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Decision Log" .
+
+ar:028 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "At key checkpoint milestones in the progress of a project, a formal architecture review will be carried out." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Compliance Assessment" .
+
+ar:029 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "Depending on their objectives, some projects will carry out assessments of business, IT, or Architecture Capability. These assessments should be periodically carried out and tracked to ensure that appropriate progress is being made. " ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Capability Assessment" .
+
+ar:030 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "The Calendar should show a schedule of in-flight projects and formal review sessions to be held against these projects." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Calendar" .
+
+ar:031 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "The Project Portfolio should hold summary information about all in-flight projects that fall under Architecture Governance." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Project Portfolio" .
+
+ar:032 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:026 ;
+    skos:definition "Based on a charter for the architecture function, a number of performance criteria will typically be defined. The Performance Measurement log should capture metrics relating to project governance and any other performance metrics relating to the architecture charter so that performance can be measured and evaluated on an ongoing basis." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Performance Measurement" .
+
+ar:034 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:033 ;
+    skos:definition "Show a long-term summary view of the requirements for the entire enterprise. Strategic Architecture Requirements identify operational and change requirements for direction setting at an executive level." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Strategic Requirements" .
+
+ar:035 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:033 ;
+    skos:definition "Provide more detailed operating model requirements for areas within an enterprise. Segment Architecture Requirements may identify requirements at the program or portfolio level to identify and align more detailed change activity." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Segment Requirements" .
+
+ar:036 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:033 ;
+    skos:definition "Identify the detailed requirements for a particular unit of capability. Capability Architecture Requirements identify requirements for individual work packages and projects to be grouped within managed portfolios and programs." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Capability requirements" .
+
+ar:038 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:037 ;
+    skos:definition "The building blocks may be products or services which may be categorized according to the Enterprise Continuum categorization and/or the ABB specifications as Strategic, Segment, or Capability SBBs. SBBs may also include tools, systems, services, and information which describe the actual solutions that may be selected and their operation. For example, vendor-specific reference models or vendor-specific levels 4 and 5 of the IT4IT Reference Architecture would be defined here. However, the Solutions Landscape will not include the information and data content produced by the solutions selected; that is the responsibility of the solutions themselves." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Solution Building Block" .
+
+ar:018 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "The Reference Library provides a repository to hold reference materials that should be used to develop architectures. Reference materials held may be obtained from a variety of sources, including: Standards bodies, Product and service vendors, Industry communities or forums, Standard templates, Enterprise best practice." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Reference Library" .
+
+ar:037 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "The Solutions Landscape holds the Solution Building Blocks (SBBs) which support the Architecture Building Blocks (ABBs) specified, developed, and deployed." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Solutions Landscape" .
+
+ar:002 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "The Architecture Metamodel describes the organizationally tailored application of an architecture framework, including a method for architecture development and a metamodel for architecture content." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Metamodel" .
+
+ar:005 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Capability" .
+
+ar:009 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Landscape" .
+
+ar:033 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "The Architecture Requirements Repository is used by all phases of the Architecture Development Method (ADM) to record and manage all information relevant to the architecture requirements. The requirements address the many types of architecture requirements; i.e., strategic, segment, and capability requirements which are the major drivers for the Enterprise Architecture. Requirements can be gathered at every stage of the architecture development lifecycle and need to be approved through the various phases and governance processes. The Requirements Management phase is responsible for the management of the contents of the Architecture Requirements Repository and ensuring the integrity of all requirements and their availability for access by all phases." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Requirements Repository" .
+
+ar:013 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "Provides a repository area to hold a set of specifications, to which architectures must conform. Establishment of a Standards Information Base provides an unambiguous basis for Architecture Governance" ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Standards Information Base" .
+
+ar:019 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:018 ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Organization Reference Material" .
+
+ar:026 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:broader ar:001 ;
+    skos:definition "Provides a repository area to hold shared information relating to the ongoing governance of projects." ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Governance Log" .
+
+ar:001 a skos:Concept ;
+    dcterms:source <https://pubs.opengroup.org/architecture/togaf9-doc/arch/index.html> ;
+    skos:inScheme ar:scheme ;
+    skos:prefLabel "Architecture Repository" ;
+    skos:topConceptOf ar:scheme .
+
+ar:scheme a skos:ConceptScheme ;
+    rdfs:label "TOGAF® 9.2 Architecture Repository Document Types" ;
+    pav:version "1.0.0" ;
+    rdfs:comment "This taxonomy of Enterprise Architecture Repository document types is based on Chapter 37 of TOGAF® 9.2 - Architecture Repository." ;
+    skos:prefLabel "TOGAF® 9.2 Architecture Repository Document Types" .
+
